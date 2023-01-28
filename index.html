@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<title>タイトル</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="style.css">
+		<script src="common.js"></script>
+	</head>
+	<body>
+        <form>
+            <label><input type="radio" name="contractType" value="請負">請負</label>
+            <label><input type="radio" name="contractType" value="派遣">派遣</label>
+            <table class="inputTable">
+                <tr>
+                    <td>基準日数：</td>
+                    <td><input type="text" id="baseDays"></input></td>
+                </tr>
+                <tr>
+                    <td>有休取得日数：</td>
+                    <td><input type="text" id="absences"></input></td>
+                </tr>
+                <tr>
+                    <td>残業予定：</td>
+                    <td><input type="text" id="scheduledOverTimes"></input></td>
+                </tr>
+                <tr>
+                    <td>残業実績：</td>
+                    <td><input type="text" id="overTimes"></input></td>
+                </tr>
+            </table>
+        </form>
+        <pre id="result"></pre>
+	</body>
+</html>
+

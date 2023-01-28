@@ -1,0 +1,7 @@
+body {
+	background-color: #eee;
+}
+
+.inputTable tr td:first-child {
+    text-align: right;
+}
